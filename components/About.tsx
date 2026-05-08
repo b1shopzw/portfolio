@@ -43,11 +43,11 @@ export default function About() {
           <div className="about-photo-top reveal">
             <div className="photo-frame">
               <Image
-                src="/profile.jpg"
+                src="/port.jpeg"
                 alt="Bernard S. Gudyanga"
                 width={180}
                 height={180}
-                style={{ objectFit: "cover", objectPosition: "top" }}
+                style={{ objectFit: "cover", objectPosition: "center" }}
                 priority
               />
             </div>
