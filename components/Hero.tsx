@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Zap, Code2 } from "lucide-react";
 
 export default function Hero() {
