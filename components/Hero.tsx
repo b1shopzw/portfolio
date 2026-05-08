@@ -7,9 +7,24 @@ export default function Hero() {
       <div className="container">
         <div className="hero-grid">
           <div className="hero-left">
-            <span className="hero-tag">
-              <MapPin size={14} className="inline mr-1" /> Based in Zimbabwe
-            </span>
+            <div style={{ display: "flex", alignItems: "center", gap: "1.5rem", marginBottom: "1.5rem" }} className="reveal">
+              <div className="photo-frame" style={{ width: "80px", height: "80px", marginBottom: 0 }}>
+                <Image
+                  src="/profile.jpg"
+                  alt="Bernard S. Gudyanga"
+                  width={80}
+                  height={80}
+                  style={{ objectFit: "cover", objectPosition: "top" }}
+                  priority
+                />
+              </div>
+              <div>
+                <span className="hero-tag" style={{ marginBottom: ".5rem" }}>
+                  <MapPin size={14} className="inline mr-1" /> Based in Zimbabwe
+                </span>
+                <p style={{ fontSize: ".8rem", color: "var(--muted)" }}>Bernard S. Gudyanga</p>
+              </div>
+            </div>
             <h1>
               CS
               <br />

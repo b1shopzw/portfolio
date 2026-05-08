@@ -60,7 +60,9 @@ export default function About() {
               <h2>
                 Driven by <span>Impact</span> <Lightbulb className="inline" />
               </h2>
-              <p>I&apos;m <strong>Bernard S. Gudyanga</strong>, a Computer Science student pursuing a <strong>Bachelor of Honours degree</strong> at the National University of Science &amp; Technology (NUST), Zimbabwe.</p>
+              <p>
+                Over the years, I have built myself deliberately — consulting in real estate, creating digital content, speaking publicly, and studying Computer Science all at once — not because I had to, but because I refuse to be average. Every skill I have gained has been intentional, every role a stepping stone toward one goal: <strong>to use technology to create real impact</strong>. I am not here to just learn — I am here to contribute from day one.
+              </p>
               <p>My passion is simple: <strong>helping people through software</strong>. I believe technology should solve real, everyday problems — not just exist for its own sake. Every project I build is motivated by the question: <em>how does this make someone&apos;s life better?</em></p>
               <p>Currently, I&apos;m building a <strong>smart queue management system (QLINE)</strong> — designed to cut down the frustrating time people waste waiting in queues. Real problem, real solution.</p>
               <p>Outside of building, I explore <strong>DIY hardware &amp; IoT</strong>, including WiFi-based sensing systems and wearable electronics — bridging the gap between code and the physical world.</p>
